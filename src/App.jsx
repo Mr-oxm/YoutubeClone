@@ -4,7 +4,7 @@
 import MainScreen from './MainScreen';
 
 import {AuthContextProvider} from "./contexts/authContext";
-import {youtubeAPIFetch} from './contexts/youtubecontext'
+import {youtubeAPIFetch} from './utils/youtubeAPI'
 import {ThemeContextProvider} from "./contexts/themeContext";
 
 import { RouterProvider, createBrowserRouter, createRoutesFromElements, Route, redirect } from "react-router-dom";
